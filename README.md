@@ -1,137 +1,137 @@
 # Staycation Web Application
 
-Staycation adalah aplikasi web responsif yang memungkinkan pengguna untuk mencari, menjelajahi, dan memesan berbagai jenis akomodasi seperti hotel, apartemen, dan rumah liburan. Platform ini menawarkan berbagai jenis properti dengan antarmuka yang interaktif dan ramah pengguna.
+Staycation is a responsive web application that allows users to search, explore, and book various types of accommodations such as hotels, apartments, and vacation homes. This platform offers a wide range of properties with an interactive and user-friendly interface.
 
-## Daftar Isi
+## Table of Contents
 
-1. [Pendahuluan](#pendahuluan)
-2. [Fitur](#fitur)
-3. [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-4. [Instalasi](#instalasi)
-5. [Penggunaan](#penggunaan)
-6. [Komponen](#komponen)
-7. [Kontribusi](#kontribusi)
-8. [Lisensi](#lisensi)
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Technologies Used](#technologies-used)
+4. [Installation](#installation)
+5. [Usage](#usage)
+6. [Components](#components)
+7. [Contributing](#contributing)
+8. [License](#license)
 
-## Pendahuluan
+## Introduction
 
-Staycation dirancang untuk membantu pengguna mencari dan memesan akomodasi seperti hotel, rumah liburan, atau apartemen dengan fitur-fitur khusus seperti ruang tamu yang luas atau dapur lengkap. Aplikasi ini juga menampilkan testimoni pelanggan dan menyediakan navigasi yang mudah untuk pengalaman pengguna yang lebih baik.
+Staycation is designed to help users find and book accommodations like hotels, vacation homes, or apartments with special features like spacious living rooms or complete kitchens. This application also displays customer testimonials and provides easy navigation for a better user experience.
 
-## Fitur
+## Features
 
-- **Desain Responsif:** Dioptimalkan untuk perangkat desktop dan mobile.
-- **Kategori Akomodasi:** Jelajahi berbagai kategori seperti "Hotel dengan Ruang Tamu Besar" atau "Apartemen dengan Set Dapur."
-- **Bagian Most Picked:** Menampilkan properti paling populer untuk dilihat oleh pengguna.
-- **Happy Stories:** Menampilkan testimoni pelanggan untuk membangun kepercayaan dan menarik pengguna baru.
-- **Navigasi yang Mulus:** Navbar yang mudah digunakan untuk akses cepat ke berbagai bagian situs.
-- **Animasi Interaktif:** Efek hover dan transisi halus untuk pengalaman yang dinamis dan modern.
+- **Responsive Design:** Optimized for both desktop and mobile devices.
+- **Accommodation Categories:** Explore various categories like "Hotels with Spacious Living Rooms" or "Apartments with Kitchen Sets."
+- **Most Picked Section:** Displays the most popular properties for users to view.
+- **Happy Stories:** Shows customer testimonials to build trust and attract new users.
+- **Smooth Navigation:** Easy-to-use navbar for quick access to different sections of the site.
+- **Interactive Animations:** Hover effects and smooth transitions for a dynamic and modern user experience.
 
-## Teknologi yang Digunakan
+## Technologies Used
 
 - **Frontend:**
-  - **React.js** - Library JavaScript untuk membangun antarmuka pengguna.
-  - **Vite.js** - Alat build yang cepat dan ringan untuk proyek React.js, menggantikan Webpack.
-  - **Tailwind CSS** - Framework CSS berbasis utility-first untuk menciptakan desain responsif dan modern.
-  - **Framer Motion** - Library animasi yang populer digunakan untuk transisi dan animasi interaktif.
-  - **React Scroll** - Memungkinkan scrolling halus untuk navigasi antar bagian.
+  - **React.js** - JavaScript library for building user interfaces.
+  - **Vite.js** - A fast and lightweight build tool for React.js projects, replacing Webpack.
+  - **Tailwind CSS** - Utility-first CSS framework for creating responsive and modern designs.
+  - **Framer Motion** - A popular animation library used for transitions and interactive animations.
+  - **React Scroll** - Enables smooth scrolling for navigation between sections.
 
-- **Alat Pengembangan:**
-  - **VS Code** - Editor kode yang digunakan dalam proyek ini.
-  - **Yarn** - Pengelola paket JavaScript yang lebih cepat dan efisien.
+- **Development Tools:**
+  - **VS Code** - Code editor used in this project.
+  - **Yarn** - A fast and efficient JavaScript package manager.
 
-## Instalasi
+## Installation
 
-Untuk menginstal proyek ini secara lokal, ikuti langkah-langkah berikut:
+To install this project locally, follow these steps:
 
-### Prasyarat
+### Prerequisites
 
-- Pastikan **Node.js** sudah terinstal di mesin Anda. Anda bisa mendownloadnya di [sini](https://nodejs.org/).
-- Pastikan **Yarn** sudah terinstal. Jika belum, Anda dapat menginstalnya dengan perintah berikut:
+- Ensure that **Node.js** is installed on your machine. You can download it [here](https://nodejs.org/).
+- Ensure that **Yarn** is installed. If not, you can install it with the following command:
   
   ```bash
   npm install --global yarn
   ```
 
-### Langkah-langkah
+### Steps
 
-1. **Clone repositori:**
+1. **Clone the repository:**
 
 ```bash
 git clone https://github.com/alfinhimawan/staycation.git
 ```
 
-2. **Masuk ke direktori proyek:**
+2. **Navigate to the project directory:**
 
 ```bash
 cd staycation
 ```
 
-3. **Instal dependensi dengan Yarn:**
+3. **Install dependencies using Yarn:**
 
 ```bash
 yarn install
 ```
 
-4. **Jalankan server pengembangan menggunakan Vite.js:**
+4. **Run the development server using Vite.js:**
 
 ```bash
 yarn dev
 ```
 
-Ini akan membuka aplikasi di browser Anda pada alamat [http://localhost:5173](http://localhost:5173).
+This will open the application in your browser at [http://localhost:5173](http://localhost:5173).
 
-## Penggunaan
+## Usage
 
-Setelah aplikasi berjalan, Anda bisa:
+Once the application is running, you can:
 
-- Menavigasi ke berbagai bagian seperti **Home**, **Most Picked**, **Categories**, dan **Testimonials** menggunakan navbar.
-- Menjelajahi berbagai jenis akomodasi yang tersedia di bagian **Most Picked** dan **Happy Stories**.
-- Melihat efek hover pada gambar untuk animasi halus dan berinteraksi dengan komponen interaktif lainnya.
+- Navigate to different sections like **Home**, **Most Picked**, **Categories**, and **Testimonials** using the navbar.
+- Explore various types of accommodations available in the **Most Picked** and **Happy Stories** sections.
+- View hover effects on images for smooth animations and interact with other interactive components.
 
-## Komponen
+## Components
 
 ### 1. **Navbar**
 
-Navbar mencakup tautan ke berbagai bagian dari situs. Selain itu, terdapat tombol untuk **Login** dan **Sign Up**, meskipun belum terhubung dengan backend.
+The navbar includes links to various sections of the site. Additionally, there are buttons for **Login** and **Sign Up**, although they are not yet connected to the backend.
 
 ### 2. **Hero Section**
 
-Bagian hero menampilkan gambar latar belakang besar dengan tombol ajakan untuk mengeksplorasi opsi akomodasi.
+The hero section displays a large background image with a call-to-action button to explore accommodation options.
 
 ### 3. **Most Picked**
 
-Menampilkan grid properti paling populer seperti rumah, apartemen, dan vila. Setiap kartu menampilkan gambar properti, judul, lokasi, dan harga. Pengguna dapat mengklik properti untuk melihat lebih lanjut.
+Displays a grid of the most popular properties, including houses, apartments, and villas. Each card shows an image of the property, title, location, and price. Users can click on a property to learn more.
 
-### 4. **Kategori Akomodasi**
+### 4. **Accommodation Categories**
 
-Pengguna dapat menjelajahi berbagai jenis akomodasi, seperti **Hotel dengan Ruang Tamu Besar** atau **Apartemen dengan Set Dapur**.
+Users can explore various types of accommodations, such as **Hotels with Spacious Living Rooms** or **Apartments with Kitchen Sets**.
 
 ### 5. **Happy Story**
 
-Bagian testimoni yang menyoroti pengalaman positif pelanggan dengan Staycation. Termasuk cerita, rating, dan tombol untuk membaca lebih lanjut tentang pengalaman mereka.
+The testimonial section highlights positive customer experiences with Staycation. It includes stories, ratings, and buttons to read more about their experiences.
 
-## Kontribusi
+## Contributing
 
-Kami menerima kontribusi dari siapa saja yang ingin berkontribusi pada proyek ini! Jika Anda ingin membantu, silakan buka masalah (issue) atau kirimkan pull request.
+We welcome contributions from anyone who wants to contribute to this project! If you want to help, feel free to open an issue or submit a pull request.
 
-### Cara Berkontribusi:
+### How to Contribute:
 
-1. Fork repositori
-2. Buat branch baru (`git checkout -b nama-fitur`)
-3. Lakukan perubahan
-4. Commit perubahan Anda (`git commit -m 'Menambahkan fitur'`)
-5. Push ke branch (`git push origin nama-fitur`)
-6. Buat pull request
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature-name`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add feature'`)
+5. Push to the branch (`git push origin feature-name`)
+6. Open a pull request
 
-Pastikan kode Anda mengikuti gaya yang ada dan sudah lulus linting.
+Ensure your code follows the existing style and passes linting.
 
-## Lisensi
+## License
 
-Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE) untuk detail lebih lanjut.
+This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) file for more details.
 
 ---
 
-### Penghargaan
+### Acknowledgments
 
 - **React.js** - https://reactjs.org/
 - **Vite.js** - https://vitejs.dev/
@@ -141,6 +141,10 @@ Proyek ini dilisensikan di bawah **MIT License** - lihat file [LICENSE](LICENSE)
 
 ---
 
-Jika Anda memiliki pertanyaan atau membutuhkan dukungan, jangan ragu untuk menghubungi pemelihara proyek ini.
+If you have any questions or need support, feel free to contact the project maintainers.
+
+---
+
+Created by Alfin Himawan Santosa ❤️
 
 ---

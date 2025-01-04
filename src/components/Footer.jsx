@@ -128,24 +128,24 @@ function Footer() {
               <li className="mb-2">
                 <span className="text-gray-500">Email:</span>{" "}
                 <a
-                  href="mailto:support@travelmate.com"
+                  href="mailto:alfinworkspace@gmail.com"
                   className="hover:text-yellow-400 transition duration-300"
                 >
-                  support@travelmate.com
+                  alfinworkspace@gmail.com
                 </a>
               </li>
               <li className="mb-2">
                 <span className="text-gray-500">Phone:</span>{" "}
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+62-821-3169-3337"
                   className="hover:text-yellow-400 transition duration-300"
                 >
-                  +1 (234) 567-890
+                  +62-821-3169-3337
                 </a>
               </li>
               <li className="mb-2">
                 <span className="text-gray-500">Address:</span> 123 Travel St,
-                Bali, Indonesia
+                Yogyakarta, Indonesia
               </li>
             </ul>
           </div>

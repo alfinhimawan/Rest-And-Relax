@@ -33,32 +33,35 @@ function ApartmentsWithKitchenSet() {
   ];
 
   return (
-    <section id="apartments" className="py-16 bg-white">
+    <section id="apartments" className="py-16">
       <div className="max-w-screen-xl mx-auto px-4">
-        <h2 className="text-3xl font-bold text-center text-gray-900 mb-10">
+        <h2 className="text-3xl font-bold text-center text-gray-800 mb-8">
           Apartments with Kitchen Set
         </h2>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8">
           {apartments.map((apartment) => (
             <div
               key={apartment.id}
-              className="relative bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 ease-in-out"
+              className="relative bg-gray-50 rounded-2xl shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300"
             >
-              <img
-                src={apartment.image}
-                alt={apartment.title}
-                className="w-full h-56 object-cover rounded-t-lg"
-              />
+              <div className="relative h-60">
+                <img
+                  src={apartment.image}
+                  alt={apartment.title}
+                  className="w-full h-full object-cover rounded-t-2xl"
+                />
+                <div className="absolute inset-0 bg-black opacity-25"></div>
+              </div>
               <div className="p-6">
-                <h3 className="text-xl font-semibold text-gray-800 mb-2">
+                <h3 className="text-xl font-semibold text-gray-900 mb-2">
                   {apartment.title}
                 </h3>
-                <p className="text-sm text-gray-500">{apartment.location}</p>
-                <p className="text-lg font-bold text-yellow-500 mt-3">
-                  {apartment.price}
-                </p>
-                <div className="mt-4">
-                  <button className="w-full py-3 px-4 bg-yellow-500 text-white font-semibold rounded-lg hover:bg-yellow-600 transition-all duration-300">
+                <p className="text-sm text-gray-600 mb-4">{apartment.location}</p>
+                <div className="flex justify-between items-center">
+                  <p className="text-lg font-bold text-yellow-500">
+                    {apartment.price}
+                  </p>
+                  <button className="text-yellow-500 hover:text-white hover:bg-yellow-500 border-2 border-yellow-500 px-4 py-2 rounded-full transition-colors duration-300">
                     Book Now
                   </button>
                 </div>

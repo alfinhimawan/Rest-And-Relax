@@ -10,7 +10,7 @@ function Navbar() {
     <nav className="bg-white shadow-md py-4">
       <div className="max-w-screen-xl mx-auto px-4 flex justify-between items-center">
         <div className="text-blue-600 text-2xl font-bold">
-          <a href="/">Staycation.</a>
+          <a href="/">Rest & Relax.</a>
         </div>
 
         <div className="space-x-6 hidden md:flex">

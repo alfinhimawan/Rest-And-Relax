@@ -42,18 +42,18 @@ function MostPicked() {
           {mostPickedItems.map((item) => (
             <div
               key={item.id}
-              className="bg-white rounded-xl shadow-lg overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out"
+              className="bg-white rounded-lg shadow-xl overflow-hidden transform hover:scale-105 transition duration-300 ease-in-out"
             >
               <img
                 src={item.image}
                 alt={item.title}
                 className="w-full h-56 object-cover transition duration-500 ease-in-out transform hover:scale-110"
               />
-              <div className="p-4">
+              <div className="p-6">
                 <h3 className="text-lg font-semibold text-gray-800 mb-2">{item.title}</h3>
                 <p className="text-sm text-gray-500">{item.location}</p>
                 <p className="text-xl font-bold text-yellow-500 mt-2">{item.price}</p>
-                <button className="mt-4 bg-yellow-500 text-white px-6 py-2 rounded-lg hover:bg-yellow-600 transition duration-300">
+                <button className="mt-4 bg-yellow-500 text-white py-2 px-4 rounded-full w-full hover:bg-yellow-600 transition duration-300">
                   Book Now
                 </button>
               </div>

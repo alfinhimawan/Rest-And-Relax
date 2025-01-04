@@ -7,6 +7,7 @@ import HotelWithLargeLivingRoom from "./components/HotelsWithLargeLivingRoom";
 import ApartemenWithKitchenSet from "./components/ApartmentsWithKitchenSet";
 import HappyStory from "./components/HappyStory";
 import Footer from "./components/Footer";
+import BackToTopButton from "./components/BackToTopButton";
 
 function App() {
   return (
@@ -17,8 +18,9 @@ function App() {
       <HouseWithBackyard />
       <HotelWithLargeLivingRoom />
       <ApartemenWithKitchenSet />
-       <HappyStory />
+      <HappyStory />
       <Footer />
+      <BackToTopButton />
     </div>
   );
 }
